@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a283bc-b6f4-4b9f-807d-868a629d738d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Doing/LeetCode" afterDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/.gitignore" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/mvnw" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/mvnw.cmd" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/pom.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/BojianApplication.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Admin.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/AdmissionCard.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Apply.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Card.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Exam.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/ExamRoom.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/News.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Others.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Room.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Score.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Student.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/AdmissionCardMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/ApplyMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/CardMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/ExamMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/ExamRoomMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/NewsMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/RoomMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/ScoreMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/mapper/TeacherMapper.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/AdminService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/AdmissionCardService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/ApplyService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/CardService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/ExamRoomService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/ExamService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/NewsService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/RoomService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/ScoreService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/StudentService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/java/cn/edu/hziee/bojian/util/HideUtils.java" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/AdmissionCardMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/ApplyMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/CardMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/ExamMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/ExamRoomMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/NewsMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/RoomMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/ScoreMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/mapping/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/font-awesome.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/bkp/ionicons.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/bkp/ionicons.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/bkp/ionicons.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/bkp/ionicons.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/ion-icon/ionicons.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/fonts/materialdesignicons-webfont.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/fonts/materialdesignicons-webfont.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/fonts/materialdesignicons-webfont.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/fonts/materialdesignicons-webfont.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/fonts/materialdesignicons-webfont.woff2" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/material-design-icon/materialdesignicons.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/simple-line-icon/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/themify-icon/fonts/themify.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/themify-icon/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/themify-icon/fonts/themify.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/themify-icon/fonts/themify.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/icons/themify-icon/themify-icons.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/responsive.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/css/style.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.html" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.svg.readme" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/fonts/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/Ie.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/attachment1.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/attachment2.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/chrome.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/crop.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/email-welcome.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/favicon.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/firefox.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/icon-close.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/loading.gif" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/logo-dark.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/logo-icon.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/logo.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/mobile.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/opera.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/profile-cover.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/profile-picture.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/profile-picture2.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/profile-picture3.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/profile-widge-bg.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/reset-email.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/safari.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-10.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-4.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-5.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-6.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-7.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-8.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/images/users/avatar-9.jpg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/custom.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/functions.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/jquery.slimscroll.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/laydate.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/theme/default/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/theme/default/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/theme/default/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/theme/default/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/laydate/theme/default/laydate.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/autoNumeric/autoNumeric.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-editable/css/bootstrap-editable.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-editable/img/clear.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-editable/img/loading.gif" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-editable/js/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-inputmask/bootstrap-inputmask.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-touchspin/css/jquery.bootstrap-touchspin.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/chart-js/Chart.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/clockpicker/css/bootstrap-clockpicker.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/clockpicker/js/bootstrap-clockpicker.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/cropper-master/cropper.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/cropper-master/cropper.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/css/jquery.dataTables-custom.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/css/jquery.datatables.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/datatables/js/jquery.datatables.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/dropzone/dropzone.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/dropzone/dropzone.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.orderBars.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/flot-chart/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/full-calendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/full-calendar/fullcalendar.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/gmaps/gmaps.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/inputmask/jasny-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-multi-select/css/multi-select.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-multi-select/img/switch.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-multi-select/js/jquery.multi-select.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-multi-select/js/jquery.quicksearch.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-quicksearch/jquery.quicksearch.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-sparkline/jquery.charts-sparkline.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-steps/css/jquery.steps.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-steps/js/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-toast/jquery.toast.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-toast/jquery.toast.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/jquery-validation/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/moment/moment.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/morris-chart/morris.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/morris-chart/morris.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/morris-chart/raphael-min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/summernote-master/summernote-bs2.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/summernote-master/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/summernote-master/summernote.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/summernote-master/summernote.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/summernote-master/summernote.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/sweetalert/sweet-alert.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/sweetalert/sweetalert.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/tagsinput/bootstrap-tagsinput.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/timepicker/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/timepicker/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/gdp-data.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-2.0.2.css" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-2.0.2.min.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-asia-mill.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-au-mill.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-ca-lcc.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-de-mill.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-in-mill.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-uk-mill-en.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-us-aea-en.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-us-il-chicago-mill-en.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/static/res/plugins/vector-map/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/main/resources/templates/teacher/boJian_allApply.html" beforeDir="false" />
+      <change beforePath="D:/2019-2020-1/JavaEE/bojian/src/test/java/cn/edu/hziee/bojian/BojianApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-499543289">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/BusyStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/easy/BusyStudent.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="416" />
+    <option name="y" value="22" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591318426985" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="easy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a283bc-b6f4-4b9f-807d-868a629d738d" name="Default Changelist" comment="" />
+      <created>1591318236483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591318236483</updated>
+      <workItem from="1591318240034" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="242000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Mybatis datasource" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/BusyStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
