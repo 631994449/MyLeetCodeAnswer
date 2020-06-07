@@ -16,7 +16,10 @@ public class MaxDepth {
     Integer ans = 1;
     public int maxDepth(TreeNode root) {
         //个人的递归想法
-        if (root.left.equals(null)&&root.right.equals(null)){//此行会报错空指针
+        if (root == null) {
+            return 0;
+        }
+        if (root.left==null&&root.right==null){
             return ans;
         }
         ans++;
