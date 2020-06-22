@@ -3,6 +3,7 @@
  *
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof
+ * 同题目:https://leetcode-cn.com/problems/number-of-1-bits/submissions/
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 package easy;
